@@ -1,6 +1,6 @@
 // oneko.js - Mouse following cat
 (function() {
-    const nekoEl = document.createElement("div");
+    const nekoEl = document.getElementById("oneko");
     let nekoPosX = 32;
     let nekoPosY = 32;
     let mousePosX = 0;
